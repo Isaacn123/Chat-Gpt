@@ -1,6 +1,6 @@
 // const  API_KEY = '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';
-   const  API_KEY = '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';
-
+//    const  API_KEY = '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';
+import env from  './env';
    const buttonElement = document.querySelector('button');
    const outPutElement =  document.getElementById('output');
    const inputfield =  document.querySelector('input');
@@ -8,6 +8,7 @@
    const submitElement = document.querySelector('#submit');
 
    var datafile = "";
+   console.log(env);
 async function fetchdata(){
 
     console.log("Clicked ");
